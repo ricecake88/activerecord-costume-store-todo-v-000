@@ -18,8 +18,13 @@ ActiveRecord::Schema.define(version: 3) do
     t.integer "costume_inventory"
     t.integer "num_of_employees"
     t.boolean "still_in_business"
+<<<<<<< HEAD
     t.datetime "opening_time"
     t.datetime "closing_time"
+=======
+    t.time "opening_time"
+    t.time "closing_time"
+>>>>>>> 3249d0e75a51b73389cfdeeca76f46a7cc7b5cc2
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -29,8 +34,11 @@ ActiveRecord::Schema.define(version: 3) do
     t.float "price"
     t.string "size"
     t.string "image_url"
+<<<<<<< HEAD
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+=======
+>>>>>>> 3249d0e75a51b73389cfdeeca76f46a7cc7b5cc2
   end
 
   create_table "haunted_houses", force: :cascade do |t|
@@ -39,8 +47,13 @@ ActiveRecord::Schema.define(version: 3) do
     t.string "theme"
     t.float "price"
     t.boolean "family_friendly"
+<<<<<<< HEAD
     t.date "opening_date"
     t.date "closing_date"
+=======
+    t.date "end_date"
+    t.date "start_date"
+>>>>>>> 3249d0e75a51b73389cfdeeca76f46a7cc7b5cc2
     t.text "description"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
